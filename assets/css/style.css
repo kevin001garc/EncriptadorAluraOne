@@ -1,0 +1,71 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+
+body {
+    background: url(/assets/img/paisaje-desertico-arboles-madrigueras-animales_717440-876.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+} 
+
+.input-texto {
+    margin-top: 90px;
+    background-color: transparent;
+    border-color: blueviolet;
+    border-radius: 10px;
+}
+
+.mensaje {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url("/assets/img/muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    border-radius: 10px;
+}
+
+.copiar {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 205px;
+    background-color: transparent;
+    border-color: gray;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    background-color: rgb(106, 9, 117);
+    color:white;
+    border-radius: 10px;
+}
+
+.desencriptar {
+    margin-left: 30px;
+    background-color: rgb(145, 6, 152);
+    border-radius: 10px;
+}
+
+.informacion {
+    font-size: 15px;
+    color: #f2f2ff;
+    font-weight: bold;
+}
